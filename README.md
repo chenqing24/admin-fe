@@ -1,27 +1,44 @@
-# MajesticAdmin-Free-Bootstrap-Admin-Template
+# Admin-FE
 
-Majestic Admin is a simple yet powerful free Bootstrap admin template that is built with the Bootstrap framework, SASS, jQuery, HTML5, and CSS. The spectacular design, user friendliness, and easy to customizability of Majestic Admin makes it suitable for building different types of admin websites. This well documented template has high responsiveness to make websites look great on both desktop and mobile devices.
+基于`Majestic Admin`二开的响应式前端UI，涉及技术：
 
-The wide array of useful Dashboard elements and other essential features available with this template will make the process of website creation and customization a lot simpler. The clean and well-written code of Majestic Admin Template is easy to comprehend even for beginners.
+* Bootstrap framework
+* SASS
+* jQuery
+* HTML5, and CSS
 
-Take a quick glance at the preview of Majestic Admin template [here](http://www.urbanui.com/majestic/template/index.html)
+## 用法
 
-[![N|Solid](preview.png)](http://www.urbanui.com/majestic/template/index.html)
+1. git clone
+2. `npm install`安装依赖
+3. 游览器打开`index.html`，查看demo
+4. 按需求改造
 
+## 目录结构
 
-<h2>How to use </h2>
+```bash
+admin-fe/
+├── css/
+├── fonts/
+├── images/
+├── js/
+├── pages/
+├── partials/
+├── index.html
+├── scss/
+├── vendors/
+├── gulpfile.js
+├── package.json
+├── CHANGELOG.md
+```
 
-<ul>
-  <li>
-    Download or Clone the depositary
-  </li>
-  <li>
-    Open the file template/index.html in a browser to view the demo
-  </li>
-  <li>
-    Start editing the code as per your requirement
-  </li>
-  <li>
-    If you wish to customize the template, use the command 'npm install' to install the necessary dependencies. Refer <a href="http://www.urbanui.com/majestic/template/documentation/documentation.html">documentaion</a> for more details on customization.
-  </li>
-</ul>
+## 自定义安装
+
+```bash
+# 安装js依赖，生成在node_modules/
+npm install
+# 安装gulp
+npm install -g gulp-cli
+# 启动http服务，打开预览页面，相关配置参考gulpfile.js
+gulp serve
+```
